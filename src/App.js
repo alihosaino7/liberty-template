@@ -1,5 +1,4 @@
 
-// import { Home, Author, Create, Explore, Details } from './pages/pages'
 import React, { StrictMode, lazy, Suspense } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar, Footer } from './layout/layout'
@@ -22,7 +21,7 @@ const headingStyles = {
 const App = () => {
   return (
     <StrictMode>
-      <Router>
+      <Router basename='/'>
         <Suspense fallback={<h1 style={headingStyles}>Loading...</h1>}>
         <Navbar />
           <Routes>
