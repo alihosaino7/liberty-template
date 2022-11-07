@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{134:function(e,n,t){"use strict";t.r(n);var a=t(1),l=t.n(a),r=t(37);n.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement(r.m,{heading1:"VIEW ITEM DETAILS",heading3:"Liberty NFT Market",sectionName:"Item Details",btnsShown:!0}),l.a.createElement(r.k,null),l.a.createElement(r.g,null))}}}]);
+//# sourceMappingURL=5.c5aecc85.chunk.js.map

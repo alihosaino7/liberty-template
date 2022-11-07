@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{135:function(e,n,t){"use strict";t.r(n);var a=t(1),l=t.n(a),r=t(37);n.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement(r.m,{sectionName:"Author",heading1:"VIEW DETAILS FOR AUTHOR",heading3:"Author Details",btnsShown:!0}),l.a.createElement(r.b,null),l.a.createElement(r.g,null))}}}]);
+//# sourceMappingURL=6.474bf018.chunk.js.map

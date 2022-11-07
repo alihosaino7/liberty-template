@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{136:function(e,n,a){"use strict";a.r(n);var t=a(1),l=a.n(t),r=a(37);n.default=function(){return l.a.createElement(l.a.Fragment,null,l.a.createElement(r.m,{sectionName:" Create Yours",heading3:"Liberty NFT Market",heading1:"CREATE YOUR NFT NOW.",btnsShown:!0}),l.a.createElement(r.n,null,l.a.createElement(r.a,null),l.a.createElement(r.l,null)))}}}]);
+//# sourceMappingURL=7.40764a68.chunk.js.map
