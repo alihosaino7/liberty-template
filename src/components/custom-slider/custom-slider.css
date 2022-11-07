@@ -1,0 +1,36 @@
+
+
+.custom-slider {
+   position: relative;
+}
+
+.custom-slider .next-arrow,
+.custom-slider .prev-arrow {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-50%);
+   z-index: 1000;
+}
+
+@media (max-width: 767px) {
+   .custom-slider__arrows {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+   }
+   .custom-slider .next-arrow,
+   .custom-slider .prev-arrow {
+      position: static;
+      transform: translateY(0);
+   }
+}
+
+.prev-arrow {
+   left: -1.5rem;
+}
+
+.next-arrow {
+   right: -1.5rem;
+}

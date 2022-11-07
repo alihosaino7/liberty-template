@@ -1,0 +1,56 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Karla:wght@300;400;500;600;700;800&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+   --primary-color: #7453fc;
+   --gray-color: #404245;
+   --dark-gray-color: #282b2f;
+
+   --fw-light: 300;
+   --fw-regular: 400;
+   --fw-medium: 500;
+   --fw-semibold: 600;
+   --fw-bold: 700;
+   --fw-extrabold: 800;
+
+   --Roboto: 'Roboto', sans-serif;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   overflow-x: hidden;
+}
+
+ul {
+   list-style: none;
+}
+
+a {
+   text-decoration: none;
+}
+
+/* Helper Calsses */
+
+.primary-color {
+   color: var(--primary-color);
+}
+
+.gray-color {
+   color: #ccc;
+}
+
+.circle {
+   border-radius: 50%;
+}
+
+.rounded {
+   border-radius: 1rem;
+}
+

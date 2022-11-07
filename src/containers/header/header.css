@@ -1,0 +1,90 @@
+
+.header {
+   background-image: url('../../assets/banner-bg.jpg');
+   color: #fff;
+   min-height: 110vh;
+   padding-top: 15rem;
+   padding-bottom: 12rem;
+   position: relative;
+}
+
+@media (max-width: 991px) {
+   .header {
+      padding-top: 12rem;
+      padding-bottom: 8rem;
+   }
+}
+
+.header .container {
+   display: flex;
+   justify-content: space-between;
+}
+
+@media (max-width: 991px) {
+   .header .container {
+      flex-direction: column;
+   }
+}
+
+.header__text {
+   flex-basis: 50%;
+   margin-top: 2.5rem;
+}
+
+@media (max-width: 991px) {
+   .header__text {
+      margin-bottom: 5rem;
+   }
+}
+
+@media (max-width: 575px) {
+   .header__text {
+      text-align: center;
+   }
+}
+
+.header__text h3 {
+   margin-bottom: .8rem;
+}
+
+.header__text h1 {
+   font-size: 3rem;
+   margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+   .header__text h1 {
+      font-size: 2.5rem;
+   }
+}
+
+.header__text p {
+   line-height: 1.8;
+   margin-bottom: 1.8rem;
+}
+
+.header__text__btns {
+   display: flex;
+   gap: 1.5rem;
+}
+
+@media (max-width: 575px) {
+   .header__text__btns {
+      width: fit-content;
+      margin: 0 auto;
+   }
+}
+
+.header-slider {
+   width: 480px;
+}
+
+@media (max-width: 991px) {
+   .header .header-slider {
+      width: 100%;
+   }
+}
+
+.header .header-slider .slick-slide img {
+   width: 100%;
+}

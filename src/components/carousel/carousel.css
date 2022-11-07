@@ -1,0 +1,41 @@
+
+
+
+.carousel {
+   width: 480px;
+   position: relative;
+}
+
+.carousel .next-arrow,
+.carousel .prev-arrow {
+   position: absolute;
+   top: 57%;
+   transform: translateY(-50%);
+   z-index: 1000;
+}
+
+@media (max-width: 767px) {
+   .carousel-arrows {
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+   }
+   .carousel .next-arrow,
+   .carousel .prev-arrow {
+      position: static;
+      transform: translateY(0);
+   }
+}
+
+.prev-arrow {
+   left: -1.5rem;
+}
+
+.next-arrow {
+   right: -1.5rem;
+}
+
+
+
