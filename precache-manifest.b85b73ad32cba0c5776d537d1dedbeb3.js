@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/js/1.19ca8ead.chunk.js"
   },
   {
-    "revision": "94afaec9d3455308b722",
+    "revision": "a3062c201850bd98dec1",
     "url": "/liberty-template/static/css/main.56320a9d.chunk.css"
   },
   {
-    "revision": "94afaec9d3455308b722",
-    "url": "/liberty-template/static/js/main.94afaec9.chunk.js"
+    "revision": "a3062c201850bd98dec1",
+    "url": "/liberty-template/static/js/main.a3062c20.chunk.js"
   },
   {
     "revision": "53b8f49741d2ba5ac01e",
@@ -68,12 +68,12 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/liberty-template/static/media/slick.d41f55a7.ttf"
-  },
-  {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/liberty-template/static/media/slick.f97e3bbf.svg"
+  },
+  {
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/liberty-template/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "fa02f04a777a7b9952b6b81b45932837",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/media/featured-04.222e5155.jpg"
   },
   {
-    "revision": "ecb7cd303474e16400e9205f3e58cd2a",
+    "revision": "0be61744f0690b4333db16f8f04abf18",
     "url": "/liberty-template/index.html"
   }
 ];
