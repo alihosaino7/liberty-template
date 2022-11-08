@@ -24,7 +24,7 @@
   "runtime~main.js.map": "/liberty-template/static/js/runtime~main.88948cc7.js.map",
   "static/media/current-04.jpg": "/liberty-template/static/media/current-04.73c8e6e3.jpg",
   "static/media/current-01.jpg": "/liberty-template/static/media/current-01.1d2e7d04.jpg",
-  "static/media/slick-theme.css": "/liberty-template/static/media/slick.d41f55a7.ttf",
+  "static/media/slick-theme.css": "/liberty-template/static/media/slick.f97e3bbf.svg",
   "static/media/banner-01.png": "/liberty-template/static/media/banner-01.fa02f04a.png",
   "static/media/banner-02.png": "/liberty-template/static/media/banner-02.855cc001.png",
   "static/media/item-details-01.jpg": "/liberty-template/static/media/item-details-01.400c1793.jpg",
@@ -44,10 +44,10 @@
   "static/media/featured-02.jpg": "/liberty-template/static/media/featured-02.17cdb345.jpg",
   "static/media/featured-03.jpg": "/liberty-template/static/media/featured-03.e5912aca.jpg",
   "static/media/featured-04.jpg": "/liberty-template/static/media/featured-04.222e5155.jpg",
-  "static/css/0.06cdb48c.chunk.css.map": "/liberty-template/static/css/0.06cdb48c.chunk.css.map",
-  "static/css/1.aa6d7375.chunk.css.map": "/liberty-template/static/css/1.aa6d7375.chunk.css.map",
   "static/css/main.56320a9d.chunk.css.map": "/liberty-template/static/css/main.56320a9d.chunk.css.map",
+  "static/css/1.aa6d7375.chunk.css.map": "/liberty-template/static/css/1.aa6d7375.chunk.css.map",
+  "static/css/0.06cdb48c.chunk.css.map": "/liberty-template/static/css/0.06cdb48c.chunk.css.map",
   "index.html": "/liberty-template/index.html",
-  "precache-manifest.5cd7535a2e65acb3195b128b7763216f.js": "/liberty-template/precache-manifest.5cd7535a2e65acb3195b128b7763216f.js",
+  "precache-manifest.9fc176cda6569e0ea09c7fe00d695409.js": "/liberty-template/precache-manifest.9fc176cda6569e0ea09c7fe00d695409.js",
   "service-worker.js": "/liberty-template/service-worker.js"
 }
