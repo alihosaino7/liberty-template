@@ -21,7 +21,7 @@ const headingStyles = {
 const App = () => {
   return (
     <StrictMode>
-      <Router basename='/'>
+      <Router basename='/liberty'>
         <Suspense fallback={<h1 style={headingStyles}>Loading...</h1>}>
         <Navbar />
           <Routes>
