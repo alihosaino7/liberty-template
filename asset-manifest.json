@@ -6,8 +6,8 @@
   "static/js/1.19ca8ead.chunk.js": "/liberty-template/static/js/1.19ca8ead.chunk.js",
   "static/js/1.19ca8ead.chunk.js.map": "/liberty-template/static/js/1.19ca8ead.chunk.js.map",
   "main.css": "/liberty-template/static/css/main.56320a9d.chunk.css",
-  "main.js": "/liberty-template/static/js/main.a3062c20.chunk.js",
-  "main.js.map": "/liberty-template/static/js/main.a3062c20.chunk.js.map",
+  "main.js": "/liberty-template/static/js/main.815d7562.chunk.js",
+  "main.js.map": "/liberty-template/static/js/main.815d7562.chunk.js.map",
   "static/js/3.53b8f497.chunk.js": "/liberty-template/static/js/3.53b8f497.chunk.js",
   "static/js/3.53b8f497.chunk.js.map": "/liberty-template/static/js/3.53b8f497.chunk.js.map",
   "static/js/4.2e33cfe9.chunk.js": "/liberty-template/static/js/4.2e33cfe9.chunk.js",
@@ -48,6 +48,6 @@
   "static/css/1.aa6d7375.chunk.css.map": "/liberty-template/static/css/1.aa6d7375.chunk.css.map",
   "static/css/main.56320a9d.chunk.css.map": "/liberty-template/static/css/main.56320a9d.chunk.css.map",
   "index.html": "/liberty-template/index.html",
-  "precache-manifest.b85b73ad32cba0c5776d537d1dedbeb3.js": "/liberty-template/precache-manifest.b85b73ad32cba0c5776d537d1dedbeb3.js",
+  "precache-manifest.5cd7535a2e65acb3195b128b7763216f.js": "/liberty-template/precache-manifest.5cd7535a2e65acb3195b128b7763216f.js",
   "service-worker.js": "/liberty-template/service-worker.js"
 }
