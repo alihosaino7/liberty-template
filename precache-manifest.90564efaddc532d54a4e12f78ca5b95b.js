@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/js/1.19ca8ead.chunk.js"
   },
   {
-    "revision": "815d7562aefbe3e9a0eb",
+    "revision": "a3062c201850bd98dec1",
     "url": "/liberty-template/static/css/main.56320a9d.chunk.css"
   },
   {
-    "revision": "815d7562aefbe3e9a0eb",
-    "url": "/liberty-template/static/js/main.815d7562.chunk.js"
+    "revision": "a3062c201850bd98dec1",
+    "url": "/liberty-template/static/js/main.a3062c20.chunk.js"
   },
   {
     "revision": "53b8f49741d2ba5ac01e",
@@ -64,16 +64,16 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/media/slick.ced611da.eot"
   },
   {
-    "revision": "d41f55a78e6f49a5512878df1737e58a",
-    "url": "/liberty-template/static/media/slick.d41f55a7.ttf"
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/liberty-template/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
     "url": "/liberty-template/static/media/slick.b7c9e1e4.woff"
   },
   {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/liberty-template/static/media/slick.f97e3bbf.svg"
+    "revision": "d41f55a78e6f49a5512878df1737e58a",
+    "url": "/liberty-template/static/media/slick.d41f55a7.ttf"
   },
   {
     "revision": "fa02f04a777a7b9952b6b81b45932837",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/media/featured-04.222e5155.jpg"
   },
   {
-    "revision": "2fe81ec9761842ba0fc1ba68c61e095d",
+    "revision": "0be61744f0690b4333db16f8f04abf18",
     "url": "/liberty-template/index.html"
   }
 ];
