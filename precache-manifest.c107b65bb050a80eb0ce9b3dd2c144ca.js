@@ -16,12 +16,12 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/js/1.19ca8ead.chunk.js"
   },
   {
-    "revision": "a3062c201850bd98dec1",
+    "revision": "dfd79f046d4942c88ec3",
     "url": "/liberty-template/static/css/main.56320a9d.chunk.css"
   },
   {
-    "revision": "a3062c201850bd98dec1",
-    "url": "/liberty-template/static/js/main.a3062c20.chunk.js"
+    "revision": "dfd79f046d4942c88ec3",
+    "url": "/liberty-template/static/js/main.dfd79f04.chunk.js"
   },
   {
     "revision": "53b8f49741d2ba5ac01e",
@@ -152,7 +152,7 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/media/featured-04.222e5155.jpg"
   },
   {
-    "revision": "0be61744f0690b4333db16f8f04abf18",
+    "revision": "c1dfb22d8150a8273c277d37a2245089",
     "url": "/liberty-template/index.html"
   }
 ];
