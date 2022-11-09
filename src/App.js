@@ -1,6 +1,6 @@
 
-import React, { StrictMode, lazy, Suspense } from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { lazy, Suspense } from 'react'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Navbar, Footer } from './layout/layout'
 import './App.css'
 
@@ -20,8 +20,7 @@ const headingStyles = {
 
 const App = () => {
   return (
-    <StrictMode>
-      <Router basename='/react'>
+      <Router basename='/'>
         <Suspense fallback={<h1 style={headingStyles}>Loading...</h1>}>
         <Navbar />
           <Routes>
@@ -34,7 +33,6 @@ const App = () => {
         <Footer />
         </Suspense>
       </Router>
-    </StrictMode>
   );
 }
 
