@@ -60,6 +60,10 @@ self.__precacheManifest = [
     "url": "/liberty-template/static/media/current-01.1d2e7d04.jpg"
   },
   {
+    "revision": "f97e3bbf73254b0112091d0192f17aec",
+    "url": "/liberty-template/static/media/slick.f97e3bbf.svg"
+  },
+  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/liberty-template/static/media/slick.ced611da.eot"
   },
@@ -70,10 +74,6 @@ self.__precacheManifest = [
   {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/liberty-template/static/media/slick.d41f55a7.ttf"
-  },
-  {
-    "revision": "f97e3bbf73254b0112091d0192f17aec",
-    "url": "/liberty-template/static/media/slick.f97e3bbf.svg"
   },
   {
     "revision": "fa02f04a777a7b9952b6b81b45932837",
