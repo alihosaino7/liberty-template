@@ -1,0 +1,17 @@
+
+
+export {default as Header} from './header/Header'
+export {default as Container} from './container/Container'
+export {default as Collections} from './collections/Collections'
+export {default as Categories} from './categories/Categories'
+export {default as CategoriesCollections} from './categories-collections/CategoriesCollections'
+export {default as CreateNFT} from './create-nft/CreateNFT'
+export {default as CurrentlyMarket} from './currently-market/CurrentlyMarket'
+export {default as PageHeading} from './page-heading/PageHeading'
+export {default as DiscoverItems} from './discover-items/DiscoverItems'
+export {default as TopSellers} from './top-sellers/TopSellers'
+export {default as ItemDetails} from './item-details/ItemDetails'
+export {default as AuthorPage} from './author-page/AuthorPage'
+export {default as ApplyForItem} from './apply-for-item/ApplyForItem'
+export {default as ItemPreview} from './item-preview/ItemPreview'
+export {default as SectionsWrapper} from './sections-wrapper/SectionsWrapper'

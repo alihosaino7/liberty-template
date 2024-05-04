@@ -1,0 +1,246 @@
+
+
+.currently-market {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   background-image: url('../../assets/dark-bg.jpg');
+}
+
+.currently-market__header {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 80px;
+}
+
+@media (max-width: 1199px) {
+   .currently-market__header {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 60px;
+   }
+}
+
+.currently-market__header .custom-select {
+   display: none;
+}
+
+@media (max-width: 767px) {
+   .currently-market__header .custom-select {
+      display: block;
+   }
+}
+
+.currently-market .heading-section {
+   margin: 0;
+   text-align: left;
+}
+
+@media (max-width: 1199px) {
+   .currently-market .heading-section {
+      margin-bottom: 2rem;
+   }
+}
+
+.currently-market .heading-section::before {
+   left: 0;
+   width: 25%;
+   transform: translateX(0);
+}
+
+@media (max-width: 991px) {
+   .currently-market .heading-section::before {
+      top: -1rem;
+      left: 50%;
+      width: 25%;
+      transform: translateX(-50%);
+   }
+}
+
+.currently-market .heading-section h1 {
+   font-size: 1.8rem;
+}
+
+.currently-market__header_list {
+   display: flex;
+   color: #fff;
+   gap: .8rem;
+}
+
+@media (max-width: 767px) {
+   .currently-market__header_list {
+      display: none;
+   }
+}
+
+.currently-market__header_list li {
+   padding: 0 .9rem;
+   font-size: 1rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 35px;
+   cursor: pointer;
+   font-weight: var(--fw-semibold);
+}
+
+.currently-market__header_list li.active,
+.currently-market__header_list li:hover {
+   background-color: var(--primary-color);
+   border-radius: 1.5rem;
+}
+
+.currently-market__items {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 2rem 1.5rem;
+}
+
+@media (max-width: 767px) {
+   .currently-market__items {
+      gap: 1rem;
+   }
+}
+
+.currently-market__item {
+   border-radius: 1.2rem;
+   padding: 2rem;
+   width: 44%;
+   height: 400px;
+   display: flex;
+   background-color: var(--dark-gray-color);
+   border: 1px solid var(--gray-color);
+   color: #fff;
+}
+
+@media (max-width: 1280px) {
+   .currently-market__item {
+      width: 48%
+   }
+}
+
+
+@media (max-width: 991px) {
+   .currently-market__item {
+      width: 100%;
+   }
+}
+
+@media (max-width: 767px) {
+   .currently-market__item {
+      padding: 1rem;
+   }
+}
+
+@media (max-width: 767px) {
+   .currently-market__item {
+      height: fit-content;
+      padding-bottom: 2rem;
+   }
+}
+
+.currently-market__item__market-image {
+   border-radius: 1.2rem;
+   margin-right: 2rem;
+}
+
+@media (max-width: 575px) {
+   .currently-market__item__market-image {
+      display: none;
+   }
+}
+
+.currently-market__item__market-image img {
+   border-radius: 1.2rem;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.currently-market__item__content {
+   flex-grow: 1;
+}
+
+.currently-market__item__content-header__person h4 {
+   color: var(--primary-color);
+}
+
+@media (max-width: 575px) {
+   .currently-market__item__content-header {
+      text-align: center;
+   }
+
+   .currently-market__item__content-header .author {
+      width: fit-content;
+      margin: 0 auto;
+      border: none;
+   }
+}
+
+.currently-market__item__content-body {
+   padding-top: 1.5rem;
+   margin-bottom: 3.5rem;
+   display: flex !important;
+   align-items: center;
+   justify-content: space-between;
+}
+
+@media (max-width: 1199px) {
+   .currently-market__item__content-body {
+      margin-bottom: 1rem;
+   }
+}
+
+
+@media (max-width: 575px) {
+   .currently-market__item__content-body {
+      padding: 1rem 0;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid var(--gray-color);
+   }
+}
+
+.currently-market__item__content-body__col-1,
+.currently-market__item__content-body__col-2 {
+   line-height: 2;
+}
+
+.currently-market__item__content-body__col-2 {
+   /* text-align: right; */
+}
+
+@media (max-width: 767px) {
+  :is(
+   .currently-market__item__content-body__col-1,
+   .currently-market__item__content-body__col-2
+  ) h3 {
+   font-size: 1.1rem;
+   line-height: 3.5;
+  }
+}
+
+@media (max-width: 575px) {
+   .currently-market__item__content-body__col-1,
+   .currently-market__item__content-body__col-2 {
+      text-align: left;
+   }
+   
+   :is(
+   .currently-market__item__content-body__col-1,
+   .currently-market__item__content-body__col-2
+  ) h3 {
+   font-size: 1rem;
+   line-height: 1.6;
+  }
+
+  .currently-market__item__content-body__col-1 {
+   margin-bottom: .8rem;
+  }
+}
+
+.currently-market__link {
+   color: var(--primary-color);
+   font-weight: var(--fw-bold);
+   text-decoration: underline;
+}
+
+

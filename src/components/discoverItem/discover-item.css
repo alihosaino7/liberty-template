@@ -1,0 +1,109 @@
+
+.discover-items__item {
+   background-color: var(--dark-gray-color);
+   border: 1px solid var(--gray-color);
+   padding: 3rem 2rem;
+   border-radius: 1rem;
+   width: calc(25% - 1rem);
+   color: #fff;
+   position: relative;
+}
+
+@media (max-width: 991px) {
+   .discover-items__item {
+      width: calc(50% - 1rem);
+   }
+}
+
+@media (max-width: 767px) {
+   .discover-items__item {
+      width: 100%;
+   }
+}
+
+.discover-items__item .link {
+   position: absolute;
+   bottom: -1.5rem;
+   left: 50%;
+   transform: translateX(-50%);
+}
+/* Start Double Item Styling */
+.discover-items__item.double-item {
+   position: relative;
+   width: calc(50% - 1rem);
+}
+
+@media (max-width: 991px) {
+   .discover-items__item.double-item {
+      width: 100%;
+   }
+}
+
+.discover-items__item.double-item .main-button {
+   position: absolute;
+   top: -1.3rem;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.discover-items__item-top {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 2px solid var(--gray-color);
+   margin-bottom: 1.5rem;
+}
+
+.discover-items__item-top__col-1,
+.discover-items__item-top__col-2 {
+   width: calc(50% - 0.7rem);
+}
+
+.discover-items__item-top__col-1 h3,
+.discover-items__item-top__col-2 h3,
+.discover-items__item > h3 {
+  padding-block: 1.5rem;
+}
+
+.double-item .discover-items__item__content {
+   border: 0;
+   padding: 0;
+}
+/* End Double Item Styling */
+
+.discover-items__item__image {
+   border-radius: 1.3rem;
+   position: relative;
+}
+
+.discover-items__item__image img {
+   width: 100%;
+   border-radius: 1.3rem;
+}
+
+.discover-items__item__image .author-image {
+   position: absolute;
+   content: '';
+   border-radius: 50%;
+   overflow: hidden;
+   width: 50px;
+   height: 50px;
+   left: 50%;
+   top: -1.5rem;
+   transform: translateX(-50%);
+}
+
+.discover-items__item__image .author-image img {
+   object-fit: cover;
+}
+
+.discover-items__item__content {
+   padding-top: 1.5rem;
+   border-top: 2px solid var(--gray-color);
+   display: flex;
+   justify-content: space-between;
+}
+
+.discover-items__item__content__col p {
+   line-height: 1.9;
+}
+

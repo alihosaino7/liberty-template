@@ -1,0 +1,23 @@
+
+
+.footer {
+   background-color: var(--primary-color);
+   padding: 2rem;
+   text-align: center;
+}
+
+.footer__copyright {
+   color: #fff;
+}
+
+.footer__copyright a {
+   color: #fff;
+   font-weight: var(--fw-semibold);
+   margin-left: .4rem;
+}
+
+.footer__copyright a:hover {
+   text-decoration: underline;
+}
+
+

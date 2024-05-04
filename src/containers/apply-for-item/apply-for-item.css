@@ -1,0 +1,63 @@
+
+
+.apply-for-item {
+   /* height: 100vh; */
+   margin-bottom: 120px;
+}
+
+.apply-for-item__form {
+   background-color: var(--gray-color);
+   padding: 4rem 2rem;
+   border-radius: 1.5rem;
+   color: #fff;
+}
+
+.apply-for-item__form__row {
+   display: flex;
+   flex-wrap: wrap;
+   margin-bottom: 2rem;
+   gap: 2rem;
+   align-items: center;
+}
+
+.apply-for-item__form__col {
+   display: flex;
+   flex-direction: column;
+   flex: 1;
+}
+
+.apply-for-item__form__col label {
+   font-weight: var(--fw-semibold);
+   margin-bottom: 1rem;
+}
+
+.apply-for-item__form__row input:not([type='file']) {
+   background-color: var(--dark-gray-color);
+   border: none;
+   outline: none;
+   padding: .8rem 1rem;
+   border-radius: 2rem;
+}
+
+.apply-for-item__form__row input:not([type='file'])::placeholder {
+   color: #ccc;
+   font-size: 1rem;
+   font-weight: var(--fw-medium);
+   letter-spacing: 1px;
+}
+
+.apply-for-item__form__row input[type='file'] {
+   border: none;
+   outline: none;
+   font-size: 1rem;
+   font-weight: var(--fw-medium);
+}
+
+.apply-for-item__form__col:has(.secondary-button) {
+   flex: 2;
+   height: 50px;
+}
+
+.apply-for-item__form__col .secondary-button {
+   margin-top: 1rem;
+}
